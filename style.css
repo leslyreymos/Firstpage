@@ -1,0 +1,53 @@
+/* 
+selector{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+*/
+
+body{
+    /* Color de fondo */
+    background-color: rgb(218, 228, 185);
+    /* Cambiar fuente desde disponibles en VScode */ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5000;
+}
+
+img{
+    /* Cambiar tamaño de imagenes */
+    /* anchura */
+    width: 200px;
+    /* altura 
+    height: ;
+    */
+}
+
+p{
+    /* Color de texto */
+    color: cadetblue;
+}
+
+/* Al editar la clase, tiene que ir un punto antes */
+.p-pandas{
+    color: rgba(0, 0, 255, 0.526);
+}
+
+.h1-mtitle{
+    color: maroon;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+}
+
+.link-titles{
+    /* Div flexible para moverse con los elementos dentro de si */ 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    color: ivory;
+    text-decoration: none;
+}
+
