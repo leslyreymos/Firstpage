@@ -8,35 +8,46 @@ selector{
 
 body{
     /* Color de fondo */
-    background-color: rgb(218, 228, 185);
+    background-color: rgb(171, 159, 159);
     /* Cambiar fuente desde disponibles en VScode */ 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 5000;
+    font-size: 20px;
 }
 
 img{
     /* Cambiar tamaño de imagenes */
     /* anchura */
-    width: 200px;
+    width: 600px;
     /* altura 
     height: ;
     */
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+img .thehorrorrockyshow{
+    justify-items: center;
+    justify-content: center;
+    
 }
 
 p{
     /* Color de texto */
-    color: cadetblue;
+    color: rgb(99, 96, 96);
 }
 
 /* Al editar la clase, tiene que ir un punto antes */
-.p-pandas{
-    color: rgba(0, 0, 255, 0.526);
+.p-TheRockyHorrorShow{
+    color: rgba(55, 55, 67, 0.526);
 }
 
 .h1-mtitle{
-    color: maroon;
+    color: rgb(207, 0, 0);
     font-family: 'Caprasimo', cursive;
     text-align: center;
+    font-size: 40px;
 }
 
 .link-titles{
@@ -49,5 +60,10 @@ p{
 a{
     color: ivory;
     text-decoration: none;
+
 }
 
+h3{
+    color: rgb(164, 21, 49);
+    justify-content: center;
+}
